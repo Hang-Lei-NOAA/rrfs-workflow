@@ -51,7 +51,7 @@ prepend_path("MODULEPATH", os.getenv("modulepath_scotch"))
 load(pathJoin("scotch", os.getenv("scotch_ver")))
 
 --prepend_path("MODULEPATH","/u/wen.meng/noscrub/ncep_post/g2tmpl/libs/modulefiles/compiler/intel/19.1.3.304")
-prepend_path("MODULEPATH","/lfs/h2/emc/eib/save/hang.lei/forgdit/nco_wcoss2/install2/modulefiles/compiler/intel/19.1.3.304")
+--prepend_path("MODULEPATH","/lfs/h2/emc/eib/save/hang.lei/forgdit/nco_wcoss2/install2/modulefiles/compiler/intel/19.1.3.304")
 load(pathJoin("g2tmpl", os.getenv("g2tmpl_ver")))
 
 setenv("FMS_ROOT","/lfs/h2/emc/lam/noscrub/emc.lam/rrfs/lib/fms.2024.01/build")
